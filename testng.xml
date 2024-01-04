@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+
+  <test thread-count="2" name="Test">
+    <classes>
+      <class name="testNG.Pgm1"/>
+      
+      <class name="testNG.Pgm2">
+      <methods>
+      <include name="Basic"/>
+      </methods>
+      
+    </class>
+      
+    </classes>
+  </test> 
+  
+  <test name="IIT">
+  
+  
+  <classes>
+  			<class name="testNG.Pgm3">
+  			<methods>
+  			<exclude name="user.*"/>
+  			</methods>
+  	</class>
+  
+  </classes>
+  </test>
+</suite>

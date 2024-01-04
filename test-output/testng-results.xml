@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="449" started-at="2023-12-08T14:37:19Z" finished-at="2023-12-08T14:37:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="449" started-at="2023-12-08T14:37:19Z" finished-at="2023-12-08T14:37:19Z">
+      <class name="data_driven.TestData">
+        <test-method status="PASS" signature="TestCaseData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:data_driven.TestData@61832929]" name="TestCaseData" duration-ms="6" started-at="2023-12-08T20:07:19Z" data-provider="driveTest" finished-at="2023-12-08T20:07:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hello ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[text]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseData -->
+        <test-method status="PASS" signature="TestCaseData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:data_driven.TestData@61832929]" name="TestCaseData" duration-ms="1" started-at="2023-12-08T20:07:19Z" data-provider="driveTest" finished-at="2023-12-08T20:07:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GM]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[forward]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[143]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseData -->
+        <test-method status="PASS" signature="TestCaseData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:data_driven.TestData@61832929]" name="TestCaseData" duration-ms="1" started-at="2023-12-08T20:07:19Z" data-provider="driveTest" finished-at="2023-12-08T20:07:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[call]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseData -->
+      </class> <!-- data_driven.TestData -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

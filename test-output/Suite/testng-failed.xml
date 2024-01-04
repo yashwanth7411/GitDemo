@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="APIkey" value="451289"/>
+  <parameter name="URL" value="qaClickAcademy.com"/>
+  <listeners>
+    <listener class-name="testNG.Listeners"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="testNG.Dataprovider">
+        <methods>
+          <include name="Selenium"/>
+        </methods>
+      </class> <!-- testNG.Dataprovider -->
+      <class name="testNG.Pgm1">
+        <methods>
+          <include name="Second"/>
+        </methods>
+      </class> <!-- testNG.Pgm1 -->
+      <class name="testNG.Annotations">
+        <methods>
+          <include name="aftclass"/>
+          <include name="befclass"/>
+          <include name="useroperation"/>
+        </methods>
+      </class> <!-- testNG.Annotations -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
